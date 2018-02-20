@@ -1,0 +1,29 @@
+.title {
+    color: #fff;
+}
+
+.menuWrapper {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #181E26;
+}
+
+.menu {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+.menuItem {
+    cursor: pointer;
+    color: #157F1F;
+    margin: 0;
+    padding: 5px;
+}
+
+.active {
+    color: #4CB97F;
+}
