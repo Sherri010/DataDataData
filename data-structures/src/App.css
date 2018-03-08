@@ -1,13 +1,16 @@
 .App {
-  text-align: center;
   height: 100%;
   width: 100%;
+  display: flex;
 }
 .structureWrapper {
     padding: 10px;
-    display: inline-block;
+    margin-left: 150px;
     background: #2F636F;
     color: #fff;
     width: 100%;
     min-height: 100vh;
+}
+
+.menuWrapper {
 }

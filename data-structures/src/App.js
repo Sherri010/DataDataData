@@ -38,11 +38,13 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Menu
-            onClickItem={(item) => this.setState({ currentDataStructure: item })}
-            activeItem={currentDataStructure}
-            menuItems={MENU_ITEMS}
-        />
+        <div className='menuWrapper'>
+            <Menu
+                onClickItem={(item) => this.setState({ currentDataStructure: item })}
+                activeItem={currentDataStructure}
+                menuItems={MENU_ITEMS}
+            />
+        </div>
         <div className='structureWrapper'>
             {this.renderDataStructure()}
         </div>

@@ -1,1 +1,35 @@
+.headerWrapper {
+    text-align: center;
+}
 
+.options {
+    padding: 10 0;
+}
+
+.action {
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 3px;
+    color: grey
+}
+
+.resultsWrapper {
+    min-height: 700px;
+    margin-top: 150px;
+}
+
+.results {
+    border: 1px solid black;
+    background: #3A3B4B;
+    height:600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.defaultText {
+    color: grey;
+}
+.primaryText {
+    color: #7CB575;
+}
